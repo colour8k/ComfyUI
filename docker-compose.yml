@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  comfyui:
+    image: comfyui
+    build:
+      context: .
+      dockerfile: ./Dockerfile
